@@ -1,1 +1,3 @@
-<?php ## pamjad.me ?>
+<?php
+
+## www.pamjad.me ##

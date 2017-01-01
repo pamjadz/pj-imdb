@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PJ IMDB\n"
-"POT-Creation-Date: 2017-01-01 14:13+0330\n"
-"PO-Revision-Date: 2017-01-01 14:17+0330\n"
+"POT-Creation-Date: 2017-01-01 22:41+0330\n"
+"PO-Revision-Date: 2017-01-01 22:41+0330\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: fr_FR\n"
@@ -20,45 +20,49 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
-#: pj-imdb.php:89 pj-imdb.php:94
+#: pj-imdb.php:41 pj-imdb.php:47
 msgid "Fetch info from IMDB"
 msgstr "Récupérer les informations de IMDB"
 
-#: pj-imdb.php:97 process.php:15
+#: pj-imdb.php:50 pj-imdb.php:62 process.php:15
 msgid "Title"
 msgstr "Titre"
 
-#: pj-imdb.php:98 process.php:16
+#: pj-imdb.php:51 pj-imdb.php:63 process.php:16
 msgid "Year"
 msgstr "An"
 
-#: pj-imdb.php:99
+#: pj-imdb.php:52
 msgid "IMDB ID"
 msgstr "IMDB ID"
 
-#: process.php:17
+#: pj-imdb.php:64 process.php:17
 msgid "Runtime"
 msgstr "Temps"
 
-#: process.php:18
+#: pj-imdb.php:65 process.php:18
 msgid "Genre"
 msgstr "Genre"
 
-#: process.php:19
+#: pj-imdb.php:66 process.php:19
 msgid "Director"
 msgstr "Directeur"
 
-#: process.php:20
+#: pj-imdb.php:67 process.php:20
 msgid "Actors"
 msgstr "Acteurs"
 
-#: process.php:21
+#: pj-imdb.php:68 process.php:21
 msgid "Country"
 msgstr "Pays"
 
-#: process.php:22
+#: pj-imdb.php:69 process.php:22
 msgid "Rating"
 msgstr "Évaluation"
+
+#: process.php:38
+msgid "Check inputs! Something is wrong"
+msgstr "Vérifier les entrées! quelque chose ne va pas"
 
 #. Plugin Name of the plugin/theme
 msgid "PJ IMDB"
