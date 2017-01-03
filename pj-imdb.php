@@ -111,12 +111,13 @@ function pj_imdb_get_callback() {
 	$name = (isset($_POST['title'])) ? $_POST['title'] : '';
 	$year = (isset($_POST['year'])) ? $_POST['year'] : '';
 	$imdb = (isset($_POST['imdb'])) ? $_POST['imdb'] : '';
+	$isTT = substr($imdb, 0, 2);
 	
 	if($year != '')
 		$year = intval($year);
-	if ( $imdb != '' && strlen( $imdb ) < 9 ) {
+	if ( $imdb != '' && strlen( $imdb ) < 9 || $isTT != 'tt') {
 		echo '<p class="error">'.__('Check your IMDB ID!','pj_imdb').'</p>';
-		return;
+		exit;
 	}
 	
 	$imdbjson = file_get_contents("http://www.omdbapi.com/?t=$name&y=$year&i=$imdb");
