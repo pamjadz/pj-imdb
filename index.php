@@ -1,3 +1,0 @@
-<?php
-
-## www.pamjad.me ##
